@@ -1,3 +1,5 @@
+#Spencer Organ - August 2019
+
 from sense_emu import SenseHat
 from time import sleep
 sense = SenseHat()
