@@ -15,5 +15,5 @@ while True:
         for i in range(graph_pressure):
             sense.set_pixel(c,i,r)
         print (c)
-	sleep(300) 
+        sleep(2)
     sense.clear()
