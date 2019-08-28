@@ -14,19 +14,19 @@ while True:
         pressure = sense.pressure
         print (pressure)
         graph_pressure = 0
-        if pressure >=970 and pressure <=990.9:
+        if pressure >=970 and pressure <991:
             print ("Stormy weather")
             colour = b
             graph_pressure =2
-        if pressure >=991 and pressure <=999.9:
+        if pressure >=991 and pressure <1000:
             print ("Rain on the way")
             colour = b
             graph_pressure =4
-        if pressure >=1000 and pressure <=1020.9:
+        if pressure >=1000 and pressure <1020:
             print ("Normal")
             colour = g
             graph_pressure =5
-        if pressure >=1021 and pressure <=1030.9:
+        if pressure >=1020 and pressure <=1031:
             print ("Fair")
             colour = r
             graph_pressure =6
