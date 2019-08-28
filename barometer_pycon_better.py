@@ -6,7 +6,7 @@ sense = SenseHat()
 r=[255,0,0]
 g=[0,255,0]
 b=[0,0,255]
-wait = 180
+wait = 30
 sense.clear(0,0,0)
 
 while True:
@@ -23,7 +23,7 @@ while True:
             colour = b
             graph_pressure =4
         if pressure >=999 and pressure <1020:
-            print ("Normal")
+            print ("Normal but it could rain")
             colour = g
             graph_pressure =5
         if pressure >=1020 and pressure <=1031:
