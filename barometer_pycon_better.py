@@ -18,11 +18,11 @@ while True:
             print ("Stormy weather")
             colour = b
             graph_pressure =2
-        if pressure >=991 and pressure <1000:
+        if pressure >=991 and pressure <999:
             print ("Rain on the way")
             colour = b
             graph_pressure =4
-        if pressure >=1000 and pressure <1020:
+        if pressure >=999 and pressure <1020:
             print ("Normal")
             colour = g
             graph_pressure =5
